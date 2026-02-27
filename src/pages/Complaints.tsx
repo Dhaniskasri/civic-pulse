@@ -63,10 +63,6 @@ export default function Complaints() {
           <h1 className="text-2xl font-bold text-foreground">Complaint Management</h1>
           <p className="text-sm text-muted-foreground mt-0.5">{COMPLAINTS.length} total complaints registered</p>
         </div>
-        <button className="flex items-center gap-2 px-4 py-2 rounded-lg gradient-brand text-white text-sm font-semibold hover:opacity-90 transition-opacity shadow-sm">
-          <Plus className="w-4 h-4" />
-          New Complaint
-        </button>
       </div>
 
       {/* Filters */}
